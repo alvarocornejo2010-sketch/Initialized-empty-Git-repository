@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: corrige-cupon-con-prueba
+expected_outcome: |
+  El cupón del 100% deja el importe de los productos en 0. Se añade una prueba que cubre ese caso. No se tocan funciones ajenas al error. El informe dice qué se ejecutó para verificar y señala, sin corregirlas, las otras cosas dudosas que hay cerca (el umbral de envío gratis, el envío cobrado sobre un total de 0).
+context:
+  scaffold_script: place-files.sh

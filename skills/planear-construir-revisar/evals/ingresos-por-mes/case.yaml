@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ingresos-por-mes
+expected_outcome: |
+  Ingresos de enero, febrero y marzo con los supuestos escritos. Detecta y cuenta los pedidos duplicados, los importes vacíos, los pedidos cancelados o devueltos y la fecha en otro formato, y dice cómo trató cada cosa. No descarta filas en silencio.
+context:
+  scaffold_script: place-files.sh

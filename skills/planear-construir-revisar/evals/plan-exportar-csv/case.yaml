@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: plan-exportar-csv
+expected_outcome: |
+  Se entrega solo un plan; no se modifica el código. El plan nombra los archivos reales del proyecto, dice cómo se comprobará que está terminado, ordena los pasos, lista riesgos y deja al usuario las decisiones de diseño (dónde se genera el CSV, qué columnas, si respeta el filtro activo) con una recomendación.
+context:
+  scaffold_script: place-files.sh

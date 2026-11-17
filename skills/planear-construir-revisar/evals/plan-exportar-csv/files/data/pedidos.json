@@ -1,0 +1,6 @@
+[
+  { "id": "P-1001", "fecha": "2025-03-02T09:15:00Z", "cliente": "García, Lucía", "email": "lucia@example.com", "notas": "Dejar en portería", "importe": 4590, "estado": "entregado" },
+  { "id": "P-1002", "fecha": "2025-03-04T17:40:00Z", "cliente": "Talleres \"El Rayo\" S.L.", "email": "compras@elrayo.example", "notas": "=HYPERLINK(\"http://example.com\")", "importe": 129900, "estado": "enviado" },
+  { "id": "P-1003", "fecha": "2025-03-05T08:05:00Z", "cliente": "Iñaki Peña", "email": "inaki@example.com", "notas": "", "importe": 1999, "estado": "pendiente" },
+  { "id": "P-1004", "fecha": "2025-03-07T12:30:00Z", "cliente": "Núñez & Hijos", "email": "info@nunez.example", "notas": "Llamar antes\nde entregar", "importe": 25000, "estado": "cancelado" }
+]

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: revisa-cambio-de-companero
+expected_outcome: |
+  Una revisión con hallazgos ordenados por gravedad, cada uno con ubicación y un escenario concreto de fallo. Encuentra la inyección SQL, la clave escrita en el código, la media sobre lista vacía y el desfase de paginación. No modifica el archivo revisado.
+context:
+  scaffold_script: place-files.sh
